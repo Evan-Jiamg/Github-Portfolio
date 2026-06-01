@@ -31,23 +31,23 @@
 
 ## 專案結構
 
-src/
-├── components/
-│   ├── layout/
-│   │   └── Navbar.jsx        # 導覽列
-│   ├── profile/
-│   │   └── ProfileHero.jsx   # 個人介紹區塊
-│   └── projects/
-│       ├── ProjectGrid.jsx   # 作品集主體
-│       ├── ProjectCard.jsx   # 單一 repo 卡片
-│       └── ProjectFilter.jsx # 語言篩選列
-├── hooks/
-│   └── useGitHubRepos.js     # Custom Hook：抓 GitHub API
-├── constants/
-│   └── projectDescriptions.js # 各 repo 的中文說明
-└── pages/
-├── HomePage.jsx           # 首頁
-└── ProjectsPage.jsx       # 作品集頁面
+    src/
+    ├── components/
+    │   ├── layout/
+    │   │   └── Navbar.jsx
+    │   ├── profile/
+    │   │   └── ProfileHero.jsx
+    │   └── projects/
+    │       ├── ProjectGrid.jsx
+    │       ├── ProjectCard.jsx
+    │       └── ProjectFilter.jsx
+    ├── hooks/
+    │   └── useGitHubRepos.js
+    ├── constants/
+    │   └── projectDescriptions.js
+    └── pages/
+        ├── HomePage.jsx
+        └── ProjectsPage.jsx
 
 ---
 
